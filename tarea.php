@@ -40,10 +40,11 @@ class Variables {
     }
 
     public function longitud() {
-        $length = strlen($this->string);
-        return $length;
-         
+        $this->concatenar();
+        $longitud = strlen($this->string);
+        return $longitud;
     
+       
     }
 }
 class Producto {
